@@ -1,0 +1,19 @@
+.content-middle {
+  size: * 899px;
+  background: resolve('stas-8.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 13px 80px 230px 50px var(--colorShadow);
+  border-top: 1px solid var(--colorBlack);
+
+  &-container {
+    color: white;
+
+    &__left {
+      @apply --danger-theme;
+    }
+
+    &__right {
+      @apply --danger-theme;
+    }
+  }
+}

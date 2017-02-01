@@ -1,0 +1,33 @@
+:root {
+  --nav-theme: 'Open Sans', sans-serif;
+  --fixedTop: rgba(9, 10, 10, 0.4);
+  --colorWhit: rgb(255, 255, 255);
+  --colorBlack: rgb(0, 0, 0);
+  --colorText: rgb(3, 104, 168);
+  --colorShadow: color(black a(86%));
+  --box-shadow: {
+    box-shadow: 0 0 5px var(--colorWhit);
+  };
+  --danger-theme: {
+    float: left;
+    size: 48% 38%;
+    color: red;
+  };
+  --conteiner-hover: {
+    display: inline-block;
+    text: uppercase;
+    color: var(--colorWhit);
+    border: 1px solid var(--colorWhit);
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: 20px;
+  };
+}
+
+.clear-fix {
+  clear: fix-legacy;
+}

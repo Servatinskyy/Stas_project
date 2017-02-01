@@ -1,0 +1,78 @@
+{
+  "name": "project2",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "yurii911"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-scroll": "^1.0.0",
+    "angular-animate": "^1.6.1",
+    "jquery": "^3.1.1",
+    "masonry": "^4.1.1",
+    "imagesloaded": "^4.1.1",
+    "isotope": "^3.0.1",
+    "classie": "^1.0.1",
+    "animate.css": "^3.5.2",
+    "vue": "^2.1.6",
+    "lightbox2": "^2.9.0"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "./angular.min.js"
+      ]
+    },
+    "angular-animate": {
+      "main": [
+        "./angular-animate.min.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "./dist/masonry.pkgd.min.js"
+      ]
+    },
+    "isotope": {
+      "main": [
+        "./dist/isotope.pkgd.min.js"
+      ]
+    },
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
+      ]
+    },
+    "imagesloaded": {
+      "main": [
+        "./imagesloaded.pkgd.min.js"
+      ]
+    },
+    "animate.css": {
+      "main": [
+        "./animate.min.css"
+      ]
+    },
+    "vue": {
+      "main": [
+        "./dist/vue.js"
+      ]
+    }
+  }
+}

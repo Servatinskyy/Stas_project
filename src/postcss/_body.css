@@ -1,0 +1,6 @@
+body {
+  background: var(--colorBlack);
+  & .wrapper {
+    font-family: var(--nav-theme);
+  }
+}

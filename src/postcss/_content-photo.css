@@ -1,0 +1,66 @@
+.content-bottom {
+  height: 2500px;
+}
+
+.grid-item {
+  size: 24% auto;
+  float: left;
+}
+
+.img-container {
+  size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.img-container img {
+  size: 100% auto;
+  vertical-align: middle;
+  position: relative;
+  display: block;
+  transition: all 0.4s linear;
+}
+
+.img-container:hover img {
+  transform: scale(1.2);
+}
+
+.img-container .img-container--link {
+  size: 100% 100%;
+  position: absolute 0 0 *;
+  overflow: hidden;
+  opacity: 0;
+  background-color: var(--fixedTop);
+  transition: all 0.4s ease-in-out;
+}
+
+.img-container:hover .img-container--link {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.img-container a.zoom-1 {
+  @apply --conteiner-hover;
+
+  padding: 79px 105px;
+}
+
+.img-container a.zoom-2 {
+  @apply --conteiner-hover;
+
+  padding: 221px 105px;
+}
+
+.img-container:hover a.zoom-1,
+.img-container:hover a.zoom-2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  transform: scale(1);
+}
+
+.img-container a.zoom-1:hover,
+.img-container a.zoom-2:hover {
+  @apply --box-shadow;
+}
